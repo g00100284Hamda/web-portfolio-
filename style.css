@@ -68,7 +68,7 @@ html {
 }
 
 .skills {
-    background-color: #3083d6;
+    background-color: #a9d1ff;
     border-radius: 10px;
     padding: 10px;
     display: block;
@@ -78,14 +78,14 @@ html {
 
 .skills h3 {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #0b214a;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: x-large;
 }
 
 .skills p {
-    text-align: justify;
-    color: rgb(255, 255, 255);
+    text-align: center;
+    color: #0b214a;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -109,7 +109,7 @@ html {
 }
 
 .hobbies p {
-    text-align: justify;
+    text-align: center;
     color: #1a426a;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -158,3 +158,72 @@ form {
 
 
 }
+
+.projects {
+    background-color: #a9d1ff;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    margin: 20px;
+
+}
+
+.projects h3 {
+    text-align: center;
+    color: #0b214a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+.projects p {
+    text-align: center;
+    color: #0b214a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#button{
+  display: block;            
+  width: max-content;        
+  margin: 16px auto;         
+  background-color: #ffffff;
+  color: rgb(90, 187, 235);
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  
+
+}
+
+#button:hover{
+  background-color: #2c3cee;
+  color:white; 
+}
+
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: rgb(76, 76, 230);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  display: none; 
+  transition: all 0.3s ease;
+}
+
+#backToTop:hover {
+  background-color: rgb(90, 187, 235);
+  transform: scale(1.05);
+}
+
+.meetme, .skills, .hobbies {
+  transition: background-color .25s ease, box-shadow .25s ease;
+  border-radius: 12px;     
+  padding: 16px;          
+}
+
+
