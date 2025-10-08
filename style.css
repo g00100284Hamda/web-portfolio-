@@ -226,4 +226,24 @@ form {
   padding: 16px;          
 }
 
+#greetBtn {
+  background-color: rgb(114, 152, 206);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+#greetBtn:hover {
+  background-color: rgb(95, 134, 190);
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
 

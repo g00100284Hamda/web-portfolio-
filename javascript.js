@@ -25,3 +25,14 @@ hoverTargets.forEach(el => {
     el.style.boxShadow = '';
   });
 });
+
+
+// Greeting button interaction
+document.addEventListener("DOMContentLoaded", function() {
+  const greetBtn = document.getElementById("greetBtn");
+  if (greetBtn) {
+    greetBtn.addEventListener("click", function() {
+      alert("🌸 Hi there! Welcome to Hamda’s Portfolio 💻✨");
+    });
+  }
+});
