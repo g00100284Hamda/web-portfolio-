@@ -1,0 +1,160 @@
+html {
+    background-color: rgb(255, 255, 255);
+    color: black
+}
+
+.logo {
+    height: auto;
+    width: clamp(120px, 18vw, 250px);
+    max-height: 70px;
+    display: block;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .06);
+}
+
+
+
+.navbar a {
+    color: rgb(114, 152, 206);
+    text-decoration: none;
+    padding: 10px 14px;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 999px;
+}
+
+.navbar a:hover {
+    background-color: rgb(115, 156, 239);
+    transform: scale(1.05);
+    color: white;
+
+}
+
+.meetme {
+    background-color: #d0ddea;
+    color: #1a426a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    margin: 20px;
+    text-align: center;
+
+
+}
+
+
+.meetme img {
+
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.meetme img:hover {
+    transform: scale(1.05);
+}
+
+.skills {
+    background-color: #3083d6;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    margin: 20px;
+
+}
+
+.skills h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+.skills p {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hobbies {
+    background-color: #d0ddea;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    margin: 20px;
+
+}
+
+.hobbies h3 {
+    text-align: center;
+    color: #1a426a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+
+
+}
+
+.hobbies p {
+    text-align: justify;
+    color: #1a426a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+.hobbies img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.hobbies img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: white;
+    padding: 10px 14px;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 999px;
+}
+
+#regards {
+
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#regards:hover {
+    transform: scale(1.05);
+}
+
+form {
+    background-color: #d0ddea;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    margin: 20px;
+
+
+}
